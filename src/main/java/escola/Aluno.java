@@ -22,4 +22,10 @@ public class Aluno {
         this.telefones.add(new Telefone(ddd, telefone));
     }
 
+    public Aluno(String nome, CPF cpf, Email email) {
+        this.nome = nome;
+        this.cpf = cpf;
+        this.email = email;
+    }
+
 }
