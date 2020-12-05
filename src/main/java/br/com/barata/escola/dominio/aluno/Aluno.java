@@ -28,4 +28,19 @@ public class Aluno {
         this.email = email;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public String getEmail() {
+        return email.getEndereco();
+    }
+
+    public String getCpf() {
+        return cpf.getNumero();
+    }
+
+    public List<Telefone> getTelefones() {
+        return telefones;
+    }
 }
